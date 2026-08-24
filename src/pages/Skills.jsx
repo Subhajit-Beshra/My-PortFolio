@@ -20,6 +20,7 @@ const Skills = () => {
           <div className='mt-5 flex flex-wrap gap-3'>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>HTML</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>CSS</span>
+            <span className='rounded border border-gray-600 px-3 py-3 text-gray-200'>Javascript</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>React</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>Tailwind CSS</span>
           </div>
