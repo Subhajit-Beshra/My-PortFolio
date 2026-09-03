@@ -28,6 +28,8 @@ const Skills = () => {
         <Reveal delay={200}><div className='border-l-2 border-cyan-400 bg-gray-900/60 p-6 transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800'>
           <h2 className='font-mono text-sm tracking-widest text-amber-200'>BACKEND</h2>
           <div className='mt-5 flex flex-wrap gap-3'>
+            <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>Node.js</span>
+            <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>Express.js</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>Firebase</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>Supabase</span>
           </div>
@@ -41,6 +43,7 @@ const Skills = () => {
         <Reveal delay={400}><div className='border-l-2 border-cyan-400 bg-gray-900/60 p-6 transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800'>
           <h2 className='font-mono text-sm tracking-widest text-amber-200'>DATABASE</h2>
           <div className='mt-5 flex flex-wrap gap-3'>
+            <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>MongoDB</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>MySQL</span>
             <span className='rounded border border-gray-600 px-3 py-2 text-gray-200'>Firestore</span>
           </div>
