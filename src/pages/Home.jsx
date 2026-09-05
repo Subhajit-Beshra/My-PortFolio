@@ -10,7 +10,7 @@ const Home = () => {
       <div className='hero-enter hero-enter-late mt-3 flex flex-col gap-3 self-start sm:flex-row sm:gap-6'>
           <a href="#projects" className='rounded 
           border border-amber-200 px-6 py-3 transition-all duration-300 hover:-translate-y-2 hover:scale-105' >View my work</a>
-          <a href="/Resume.pdf" download className="rounded bg-amber-200 px-6 py-3 text-black transition-all duration-300 hover:-translate-y-2 hover:scale-105">Download resume</a>
+          <a href="Resume.pdf" download className="rounded bg-amber-200 px-6 py-3 text-black transition-all duration-300 hover:-translate-y-2 hover:scale-105">Download resume</a>
         </div>
     </div>
   )
