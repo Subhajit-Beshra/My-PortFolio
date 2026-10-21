@@ -12,7 +12,7 @@ const App = () => {
     {
       icon: '📑',
       title: 'My First Blog',
-      desc: 'A responsive blog writing application that allows users to create, edit, and publish blog posts with a clean and user-friendly      interface. Built to demonstrate front-end development skills, responsive design, and content management capabilities.',
+      desc: 'A responsive blog writing application that allows users to create, edit, and publish blog posts with a clean and user-friendly interface. Built to demonstrate front-end development skills, responsive design, and content management capabilities.',
       skills: ['HTML', 'CSS'],
       link: 'https://subhajit-beshra.github.io/from-confusion-to-confidence/'
     },
