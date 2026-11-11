@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/footer'
 import Home from './pages/Home'
@@ -6,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Skills from './pages/Skills'
 import Projects from './pages/Projects'
+import Experience from './pages/Experience'
 
 const App = () => {
   const projects = [
@@ -36,6 +36,13 @@ const App = () => {
       desc: 'A job-search platform designed to make finding relevant job opportunities easier and more organized. The project focuses on displaying job listings in a clean interface, allowing users to explore opportunities based on their interests and requirements.',
       skills: ['HTML', 'Tailwind CSS', 'Firebase', 'Firestore'],
       link: 'https://subhajit-beshra.github.io/Job-Board/'
+    },
+    {
+      icon: '📹',
+      title: 'MyTube',
+      desc: 'MyTube is a video discovery and creator platform built with Next.js, React, Express, and MongoDB. Browse videos, create a channel, upload videos, subscribe to MyTube creators, and get in-app notifications when they publish.',
+      skills: ['Next.js', 'TailwindCss', 'Node.js', 'Express.js', 'MongoDB', 'Razorpay', 'LiveKit'],
+      link: 'https://mytube-w8ah.onrender.com/'
     }
   ];
   return (
@@ -55,6 +62,10 @@ const App = () => {
 
       <section id="projects">
         <Projects projects = {projects}/>
+      </section>
+
+      <section id="experience">
+        <Experience />
       </section>
 
       <section id="contact">
