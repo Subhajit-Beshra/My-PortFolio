@@ -65,26 +65,39 @@ The website focuses on:
 
 ```text
 My-PortFolio/
-│
 ├── public/
-│
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── Resume.pdf
 ├── src/
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── me.jpeg
+│   │   ├── react.svg
+│   │   └── vite.svg
 │   ├── components/
+│   │   ├── Cards.jsx
+│   │   ├── footer.jsx
+│   │   ├── Form.jsx
 │   │   ├── Navbar.jsx
-│   │   └── footer.jsx
-│   │
+│   │   └── Reveal.jsx
 │   ├── pages/
-│   │   ├── Home.jsx
 │   │   ├── About.jsx
-│   │   ├── Skills.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Home.jsx
 │   │   ├── Projects.jsx
-│   │   └── Contact.jsx
-│   │
+│   │   └── Skills.jsx
+│   ├── App.css
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── package-lock.json
+├── Resume.pdf
 ├── vite.config.js
 └── README.md
 ```
